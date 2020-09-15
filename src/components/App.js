@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Projects from './Projects';
 import SocialProfiles from './SocialProfiles';
 import Title from './Title';
-import profile from '../assets/profile.png';
+import pro from '../assets/pro.jpg';
 
 class App extends Component {
   state = { displayBio: false };
@@ -14,17 +14,17 @@ class App extends Component {
   render() {
     return (
       <div>
-        <img src={profile} alt='profile' className='profile' />
+        <img src={pro} alt='profile' className='profile' />
         <h1>Hello!</h1>
-        <p>My name is David.</p>
+        <p>My name is Parnal.</p>
         <Title />
         <p>I'm always looking forward to working on meaningful projects.</p>
         {
           this.state.displayBio ? (
             <div>
-              <p>I live in San Francisco, and code every day.</p>
-              <p>My favorite language is JavaScript, and I think React.js is awesome.</p>
-              <p>Besides coding, I also love music and ramen!</p>
+              <p>I live in Pune, and code every day.</p>
+              <p>I have immersed myself in both Data Analytics projects and Web Development projects and love both.</p>
+              <p>Besides coding, I also enjoy reading books and playing outdoor sports.</p>
               <button onClick={this.toggleDisplayBio}>Show less</button>
             </div>
           ) : (
