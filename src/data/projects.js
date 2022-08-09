@@ -6,62 +6,69 @@ import color_game from '../assets/color_game.png';
 import todo from '../assets/todo.jpg';
 import ipl from '../assets/ipl.jpg';
 import elec from '../assets/elec.jpg';
+import engagement from '../assets/Digital_Engagement_Tool.jpg';
+import distillation from '../assets/distillation.jpg';
+import weather from '../assets/weather.jpg';
+import vehicles from '../assets/vehicles.jpg';
+
+
+
 
 
 const PROJECTS = [
     {
         id: 1,
-        title:'Professional - RCC Segmentation',
-        description:'Based on MD attitudes, perceptions and usage, segmented MDs into different groups using clustering for the client so that it will be easier for sales reps to identify MDs while detailing them.',
+        title:'Professional - Digital Engagement Tool',
+        description:'Worked on a software development project where we designed, built and tested a POC version of an online tool right from scratch',
         // link:'https://github.com/ParnalPatil?tab=repositories',
-        image: Segmentation
+        image: engagement
     },
     {
         id: 2,
+        title:'Professional - GITA Distillation',
+        description:'Modified existing multiple dynamic and browser compatible web pages and added new visual elements of web applications by translating UI/UX design into code, producing high quality markup',
+        // link:'https://github.com/ParnalPatil?tab=repositories',
+        image: distillation
+    },
+    {
+        id: 3,
         title:'Professional - IO Tracking',
-        description:'Tracked various medical products in different cancer tumors and analyse MDs perceptions and impact of new launches on current products in the market',
+        description:'Tracked various medical products in different cancer tumors and analyzed MDs perceptions and impact of new launches on current products in the market',
         // link:'https://github.com/ParnalPatil?tab=repositories',
         image: analytics
     },
     {
-        id: 3,
-        title:'Academic - Home Automation using Android App',
-        description:'Created an effective and easy to use Android app that could be used to control electric loads such as light and fan within the Bluetooth range',
-        // link:'https://github.com/ParnalPatil?tab=repositories',
-        image: homeautomation
+        id: 4,
+        title:'Personal - Weather App',
+        description:'Designed and developed a scalable, fault-tolerant cloud-native distributed system weather forecasting app which was used to plot NEXRAD and NASA weather data employing the Micro-Services Architecture pattern',
+        // link:'https://github.com/ParnalPatil/YelpCamp-Website-Project',
+        image: weather
     },
     {
-        id: 4,
+        id: 5,
+        title:'Personal - USD Vehicles',
+        description:'Based on an idea, developed a fictional commercial website showcasing used vehicles information which a user can use to search for and compare different vehicles according to its region and category with the help of creative and easy to understand graphs',
+        link:'https://github.com/ParnalPatil/VehiclesManagement',
+        image: vehicles
+    },
+    {
+        id: 6,
         title:'Personal - Camping Website',
         description:'Developed a functioning camping website where users can upload images and add description and cost of camps that they have visited. Used a combination of HTML, CSS, Bootstrap, Semantic UI and Node JS.',
         link:'https://github.com/ParnalPatil/YelpCamp-Website-Project',
         image: camping
     },
     {
-        id: 5,
-        title:'Personal - RGB Color-Game',
-        description:'Developed an RGB color game using HTML, CSS, Bootstrap and JavaScript where the user has to guess the color among the 6 color options (hard mode) based on the RGB code. Also, added an easy mode where user has to guess the color from 3 options.',
-        link:'https://github.com/ParnalPatil/Projects/tree/master/JavaScript',
-        image: color_game
-    },
-    {
-        id: 6,
-        title:'Personal - To-Do List App',
-        description:'Developed a to-do list application using HTML, CSS, Bootstrap and JavaScript where the user has the option of adding his own to-do items for the day as well as deleting the items that have already been attended to.',
-        link:'https://github.com/ParnalPatil/Projects/tree/master/JavaScript',
-        image: todo
-    },
-    {
         id: 7,
         title:'Personal - IPL EDA',
-        description:'Did some exploratory data analysis on the Indian Premier League data which was dated from 2008-2019.',
+        description:'Exploratory data analysis on the Indian Premier League data which was dated from 2008-2019.',
         link:'https://github.com/ParnalPatil/Kaggle-Projects/tree/master/IPL',
         image: ipl
     },
     {
         id: 8,
         title:'Personal - Indian Election EDA',
-        description:'Did some exploratory data analysis on the 2019 Indian Elections.',
+        description:'Exploratory data analysis on the 2019 Indian Elections.',
         link:'https://github.com/ParnalPatil/Kaggle-Projects/tree/master/Indian%20Election%202019',
         image: elec
     }

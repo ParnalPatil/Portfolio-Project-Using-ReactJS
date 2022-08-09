@@ -16,13 +16,8 @@ const SOCIAL_PROFILES = [
     },
     {
         id:3,
-        link: 'https://in.linkedin.com/in/parnal-ghundare-patil-48758b2b',
+        link: 'https://www.linkedin.com/in/parnal-ghundare-patil-48758b2b',
         image: linkedinIcon
-    },
-    {
-        id:4,
-        link: 'https://twitter.com/parnal1996',
-        image: twitterIcon
     },
 ];
 

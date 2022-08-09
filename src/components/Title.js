@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 const TITLES = [
-    'a music lover',
-    'an enthusiastic learner',
+    'a sports enthusiast',
+    'an avid learner',
     'an adventure seeker'
 ];
 
